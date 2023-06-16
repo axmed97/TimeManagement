@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css' integrity='sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==' crossorigin='anonymous'/>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css' integrity='sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg==' crossorigin='anonymous'/>
+    <title>Time Managment</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="timer timer-off">
+            <div class="clock">
+                <div time-type="hours" class="time hours">00</div>
+                <div class="divider">:</div>
+                <div time-type="minutes" class="time minutes">00</div>
+                <div class="divider">:</div>
+                <div time-type="seconds" class="time seconds">00</div>
+            </div>
+            <div class="controls">
+                <div class="control-group play-actions">
+                    <div class="control-button start"><i class="fa-solid fa-play"></i></div>
+                    <div class="control-button pause"><i class="fa-solid fa-pause"></i></div>
+                    <div class="control-button reset"><i class="fa-solid fa-rotate-right"></i></div>
+                </div>
+                <div class="control-group time-actions">
+                    <div class="control-button time-action plus"><i class="fa-solid fa-plus"></i></div>
+                    <div class="control-button time-action minus"><i class="fa-solid fa-minus"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
